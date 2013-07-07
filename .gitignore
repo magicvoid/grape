@@ -4,3 +4,15 @@
 *.jar
 *.war
 *.ear
+
+server/.classpath
+
+server/.project
+
+*.prefs
+
+*.log
+
+*.bak
+
+server/.DS_Store

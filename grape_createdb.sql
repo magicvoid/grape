@@ -1,0 +1,4 @@
+CREATE USER 'grapeadmin'@'localhost' IDENTIFIED BY 'red0620';
+GRANT ALL PRIVILEGES ON grape.* TO 'grapeadmin'@'localhost' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+CREATE database IF NOT EXISTS grape CHARACTER SET=utf8;
